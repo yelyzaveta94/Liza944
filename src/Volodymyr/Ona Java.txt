@@ -1,0 +1,9 @@
+In Java, super() and this() are constructors used to call a constructor in a superclass or another constructor in the same class respectively. super and this are keywords used to reference the superclass and current object respectively.
+
+Here is a brief explanation of each:
+
+super() is used to call a constructor in the superclass. It must be the first statement in the constructor of the subclass, and it is optional if the superclass has a no-argument constructor. If the superclass has a parameterized constructor, the subclass constructor must call it using super() with the appropriate arguments.
+
+this() is used to call another constructor in the same class. It can be used to avoid duplicate code by calling another constructor that has already initialized some of the variables. Like super(), it must be the first statement in the constructor.
+
+super is used to reference the superclass from the subclass. It can be used to access methods and variables in the superclass, or to call the superclass constructor. For example, super.methodName() calls a method in the superclass, and super() calls the superclass constructor.

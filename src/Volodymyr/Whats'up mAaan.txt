@@ -1,0 +1,3 @@
+Encapsulation is one of the fundamental concepts of object-oriented programming that aims to protect data by restricting direct access to it from outside the class. Encapsulation is achieved by combining data (instance variables) and behavior (methods) within a single unit called a class, and by controlling access to the instance variables using access modifiers (private, protected, public).
+
+In Java, encapsulation can be achieved by declaring instance variables as private and providing public accessor and mutator methods (getters and setters) to access and modify the values of the instance variables.
