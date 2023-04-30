@@ -1,0 +1,7 @@
+Inheritance is a fundamental concept in object-oriented programming that allows a class (called a subclass or derived class) to inherit properties and methods from another class (called a superclass or base class).
+
+In Java, inheritance is achieved using the extends keyword. When a subclass extends a superclass, it automatically inherits all the non-private properties and methods of the superclass. This means that the subclass can access and use these properties and methods without redefining them.
+
+For example, consider a superclass Vehicle that has properties and methods related to vehicles, and a subclass Car that extends Vehicle. Car will inherit all the properties and methods of Vehicle, such as drive(), stop(), fuelLevel, engineSize, and so on. The subclass Car can also add its own properties and methods, or override the inherited ones if needed.
+
+Inheritance helps in code reusability and makes it easier to manage and organize complex code structures. However, it should be used judiciously as it can also introduce complexity and dependencies between classes.
